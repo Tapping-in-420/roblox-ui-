@@ -434,7 +434,7 @@ function Library:CreateWindow(title)
             local open = false
             
             local DropFrame = Instance.new("Frame")
-            DropFrame.Size = UDim2.new(1, -20, 0, 40)
+            DropFrame.Size = UDim2.new(1, -20, 0, 48)
             DropFrame.BackgroundTransparency = 1
             DropFrame.ClipsDescendants = false
             DropFrame.Parent = parent
